@@ -28,8 +28,7 @@ msg = MIMEMultipart()
 msg.attach(MIMEImage(open('pythonTest.jpg', 'rb').read()))
 
 fromMail = 'miscellaneous.obj@gmail.com'
-#password = getpass.getpass()
-password= 'mahboobeh11'
+password = getpass.getpass()
 toMail = 'miscellaneous.obj@gmail.com'
 msg['subject'] = 'Picture from Raspberry Pi!'
 #subject = 'Picture from Raspberry Pi!'
